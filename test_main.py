@@ -1,6 +1,7 @@
 import subprocess
 import sys
 
+
 def test_hello_world():
     result = subprocess.run(
         [sys.executable, "main.py"],
